@@ -79,3 +79,16 @@ s_dic={'a':1, 'b':2, 'c':3}
 
 #d가 현재 딕셔너리에 없으므로 추가됨. d 값이 현재 있을 경우에는 뒤에 추가한 값이 무시됨.
 s_dic.setdefault('d', 4)
+
+#values값들로 리스트 만들기
+temp=[i for i in dic.values()]
+
+#키 값들로 리스트 만들기
+key=[i for i in dic.keys()]
+
+#리스트를 딕셔너리로 만들기( 키 값으로 쓰기 )
+ x = dict.fromkeys(keys)
+  
+#이차원 배열 딕셔너리로 만들기
+x=dict(list)
+
