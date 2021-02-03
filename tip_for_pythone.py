@@ -16,11 +16,18 @@ closet={}
     for i in [x[1] for x in clothes]:
       try: closet[i]+=1
       except: closet[i]=1
+#리스트 내용 갯수 세서 반환
+from collections import Counter        
+cnt = Counter([kind for name, kind in clothes])
 
 #인덱스 에러
  a[-1:]  -> 빈 배열도 가능
   
 max(b) => 배열 b중 가장 큰 값 찾기
+
+
+#튜플 두번째 값으로 정렬
+v.sort(key=lambda x:x[1])
 
 #for 문을 돌면서 값을 조금씩 바꾸어야 할 때 map 이용
 target = [1, 2, 3, 4, 5]
