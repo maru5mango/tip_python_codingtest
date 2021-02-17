@@ -8,3 +8,11 @@ while temp:
       temp.pop(0)
     else:
       break
+
+# pop 효율성 문제 -> deque 사용
+from collections import deque
+  dq=deque(리스트)
+  len(dq)
+  dq.popleft()
+  dq.pop()
+ 
