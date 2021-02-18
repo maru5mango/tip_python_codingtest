@@ -16,6 +16,7 @@ s.split(' '):
   
 #첫글자만 대문자
 s.capitalize()
+s.title()
 
 #문자열 붙이기
 ''.join(ans)
