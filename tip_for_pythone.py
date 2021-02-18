@@ -11,6 +11,16 @@ new_list[a]=[i for i in new_list[a] if i!=0] -> 0인 값을 없애버리기
 
 enumerate(list, start=1) => 인덱스랑 해당 내용 튜플로 묶기
 
+#문자열 자르기
+s.split(' '):
+  
+#첫글자만 대문자
+s.capitalize()
+
+#문자열 붙이기
+''.join(ans)
+
+
 #리스트 내용 갯수 세서 딕셔너리 
 closet={}
     for i in [x[1] for x in clothes]:
