@@ -30,6 +30,7 @@ closet={}
 #리스트 내용 갯수 세서 반환
 from collections import Counter        
 cnt = Counter([kind for name, kind in clothes])
+cnt.most_common() -> 제일 빈도 수 높은 것 부터 튜플로 
 
 #인덱스 에러
  a[-1:]  -> 빈 배열도 가능
