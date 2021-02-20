@@ -41,6 +41,9 @@ max(b) => 배열 b중 가장 큰 값 찾기
 #튜플 두번째 값으로 정렬
 v.sort(key=lambda x:x[1])
 
+#sort여러개
+v.sort(key=lambda x: (int(x[0]), len(x[1])))
+
 #for 문을 돌면서 값을 조금씩 바꾸어야 할 때 map 이용
 target = [1, 2, 3, 4, 5]
 result = list(map(lambda x : x+1, target))
