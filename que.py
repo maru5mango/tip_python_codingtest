@@ -16,3 +16,11 @@ from collections import deque
   dq.popleft()
   dq.pop()
  
+
+#우선순위 큐
+from queue import PriorityQueue
+que = PriorityQueue(maxsize=8)
+#추가
+que.put(3)
+#삭제
+que.get()
