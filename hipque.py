@@ -26,3 +26,9 @@ for num in nums:
 
 while heap:
   print(heapq.heappop(heap)[1])  # index 1
+
+  
+ #가장 큰 값 지우기
+que=heapq.nsmallest(len(que)-1,que)
+#가장 큰 값 가져오기( 삭제되지는 않음 )
+max_num=heapq.nlargest(1,que)
