@@ -1,3 +1,12 @@
+##선택정렬
+for i in range(s):
+	min_idx=i
+	for j in range(i+1,n):
+		if arr[j]<arr[min_idx]:
+			min_idx=j
+	if min_idx!=i:
+		arr[i], arr[min_idx] = arr[min_idx], arr[i] 
+
 #간단한 정렬 버블 정렬 , 인접한 두 원소 비교하여 위치 스왑
 def bubble(x):
   for i in range(len(x)-1):
